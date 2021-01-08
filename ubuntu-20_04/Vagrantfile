@@ -2,6 +2,7 @@ Vagrant.configure("2") do |config|
     config.vm.synced_folder "~/code", "/mnt/code"
     config.vm.synced_folder "~/Pictures", "/mnt/pictures"
     config.vm.synced_folder "~/Downloads", "/mnt/downloads"
+    config.vm.synced_folder "~/Documents", "/mnt/documents"
     config.vm.define "virtualbox" do |ubuntu2004|
         ubuntu2004.vm.box = "bento/ubuntu-20.04"
         ubuntu2004.vm.hostname = "ubuntu-20-04"

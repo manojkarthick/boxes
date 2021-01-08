@@ -5,6 +5,7 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder "~/code", "/mnt/code"
   config.vm.synced_folder "~/Pictures", "/mnt/pictures"
   config.vm.synced_folder "~/Downloads", "/mnt/downloads"
+  config.vm.synced_folder "~/Documents", "/mnt/documents"
   config.vm.define "virtualbox" do |nixos2003|
       nixos2003.vm.box = "nixos-20.09-virtualbox-x86_64.box"
       nixos2003.vm.hostname = "nixos-20-09"
