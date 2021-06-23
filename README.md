@@ -43,6 +43,6 @@ Note: On macOS 11.x, using custom network settings does not work! Take a look at
 | Ubuntu  | 18.04            | hashicorp/bionic64                | VMware      | ubuntu1804/Vagrantfile |                                                               |
 | Ubuntu  | 20.04            | bento/ubuntu-20.04                | VMware      | ubuntu2004/Vagrantfile |                                                               |
 | Ubuntu  | 20.10            | bento/ubuntu-20.10                | VMware      | ubuntu2010/Vagrantfile |                                                               |
-| Arch    | Rolling release  | archlinux/archlinux               | Virtualbox  | archlinux/Vagrantfile  | Latest at v20210215.15590                                     |
+| Arch    | Rolling release  | generic/arch                      | VMware      | archlinux/Vagrantfile  |                                                               |
 | NixOS   | 20.09            | griff/nixos-stable-x86_64         | VMware      | nixos2009/Vagrantfile  |                                                               |
 | KubeAdm | N/A              | bento/ubuntu-20.04                | Virtualbox  | kubeadm/Vagrantfile    | Master/Worker setup for Kubeadm cluster                       |
