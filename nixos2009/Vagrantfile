@@ -1,7 +1,3 @@
-# install packer: sudo port install packer
-# build box for vagrant with https://github.com/nix-community/nixbox
-# run: packer build --only=vmware-iso nixos-x86_64.json
-# install plugin from https://github.com/nix-community/vagrant-nixos-plugin
 
 Vagrant.configure("2") do |config|
   config.vm.synced_folder "~/code", "/mnt/code"
